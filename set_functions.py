@@ -22,6 +22,8 @@ unique_set_of_values = {3, 4, 5, 77, 100, 40}
 
     # discard() удаляет елемент и не выдает ошибку даже если елемента нет
 # print(unique_set_of_values.discard('fox'))
+# unique_set_of_values.remove(34)    # Removes 34, or raises KeyError if not found
+# unique_set_of_values.discard(34)   # Removes 34, or does nothing if not found
 
 #     # issubset() возвращает True или False если один сет имеет значения другого сета
 # data_set_1 = {40, 33, 130, 120, 7, 2, 1, 80, 90}
@@ -35,8 +37,23 @@ unique_set_of_values = {3, 4, 5, 77, 100, 40}
 # new_set_2 = {3, 55, 100}
 # result = new_set_1.intersection(new_set_2)
 # print(result)
+    
+    # Также символ & используется также для пересечений (только в сетах)
+    # К примеру найти юзеров которые во всех черных списках - blacklists
+# casino_blacklist = {"Eward Hops", "Linsey Gramma", "Arnold Whiteangel", "Denis Lezovskie"}
+# bar_blacklist = {"Eward Hops", "Daniel Redkliff", "Arnold Whiteangel", "Lola Bosnia"}
+# club_blacklist = {"Eward Hops", "Dazy Lazy", "Arnold Whiteangel", "Denis Lezovskie"}
+
+# all_blacklist_user = casino_blacklist & bar_blacklist & club_blacklist
+# print(all_blacklist_user)
 
     # union() - обьеденяет два сета
 # new_set_1 = {3, 4, 5, 77, 9}
 # new_set_2 = {3, 55, 100}
 # print(new_set_1.union(new_set_2))
+
+just_to_check = {34, 34, 555, 89, 90, 20}
+# just_to_check.remove(34)
+# print(just_to_check)
+print(just_to_check.pop())
+
