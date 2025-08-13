@@ -56,4 +56,3 @@ just_to_check = {34, 34, 555, 89, 90, 20}
 # just_to_check.remove(34)
 # print(just_to_check)
 print(just_to_check.pop())
-

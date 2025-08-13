@@ -43,3 +43,4 @@ cars_dict = {"car_1": "Audi", "car_2": "Ford"}
     # popitem() удаляет последнее значение с dict
 # cars_dict.popitem()
 # print(cars_dict)
+
