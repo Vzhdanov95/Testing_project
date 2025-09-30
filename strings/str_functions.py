@@ -43,3 +43,9 @@ some_name = 'Dream Stream' # условный tuple
 # print(ninja_turtles.replace('.', ','))
 # print(ninja_turtles.endswith('elo'))
 # print(ninja_turtles.startswith('Raf'))
+
+# s1 = "Straße"
+# s2 = "STRASSE"
+
+# print(s1.lower() == s2.lower()) # straße == strasse = False
+# print(s1.casefold() == s2.casefold()) # strasse == strasse = True

@@ -39,10 +39,21 @@ is_valid = True or False
 # change_value = str(change_value)
 # print(type(change_value))
 
-group_of_people = ["Nina", "Maks", "Anna", "Dimon", "Dimon"]
+# group_of_people = ["Nina", "Maks", "Anna", "Dimon", "Dimon"]
 
-# group_of_people = set(group_of_people)
-group_of_people = str(group_of_people)
-print(group_of_people)
-group_of_people = list(group_of_people)
-print(group_of_people)
+# # group_of_people = set(group_of_people)
+# group_of_people = str(group_of_people)
+# print(group_of_people)
+# group_of_people = list(group_of_people)
+# print(group_of_people)
+
+# f_st_1 = frozenset([4,3,84,8,8])
+# f_st_2 = frozenset([4,3,83,8])
+
+# f_st_3 = f_st_1.copy()
+
+# print(f_st_3)
+
+# f_st_x = frozenset({'key':'sim'})
+# print((f_st_x))
+
